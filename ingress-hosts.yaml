@@ -1,0 +1,17 @@
+ingressAddress: 192.168.68.84
+
+ingressHosts:
+  - argocd.morrisons.site
+  - prometheus.morrisons.site
+  - alertmanager.morrisons.site
+  - grafana.morrisons.site
+  - openbao.morrisons.site
+  - home-assistant.morrisons.site
+  - pihole.morrisons.site
+  - homelab.morrisons.site
+  - registry.morrisons.site
+  - woodpecker.morrisons.site
+  - hdmi-switch.morrisons.site
+  - graph-hdmi-switch.morrisons.site
+  - graphql.morrisons.site
+  - control.morrisons.site

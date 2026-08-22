@@ -23,3 +23,11 @@ trigger needed.
 
 If a device's IP ever changes (DHCP reservation updated, etc.), update it
 here once, not in both consuming repos.
+
+## `ingress-hosts.yaml`
+
+The `*.morrisons.site` ingress hostnames and the single node IP
+(`ingressAddress`, `imac`) they all resolve to. Only `homelab-pihole`
+consumes this today — it's not duplicated anywhere else, this file exists
+purely so every hardcoded network IP in the homelab lives in one obvious,
+visible place rather than for dedup.
