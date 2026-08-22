@@ -1,0 +1,6 @@
+localHosts:
+  pizero.local: 192.168.68.93
+  pi1.local: 192.168.68.92
+  basementpc.local: 192.168.68.78
+  nevespc.local: 192.168.68.100
+  Matthews-MacBook-Air.local: 192.168.68.71
