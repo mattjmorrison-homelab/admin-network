@@ -1,0 +1,19 @@
+name: Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check:
+    runs-on: k8s-amd64
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Install yq
+        run: |
+          curl -sfL https://github.com/mikefarah/yq/releases/download/v4.44.3/yq_linux_amd64 -o "$RUNNER_TEMP/yq"
+          chmod +x "$RUNNER_TEMP/yq"
+      - name: Validate YAML syntax
+        run: |
+          "$RUNNER_TEMP/yq" eval . local-hosts.yaml > /dev/null
+          "$RUNNER_TEMP/yq" eval . ingress-hosts.yaml > /dev/null
