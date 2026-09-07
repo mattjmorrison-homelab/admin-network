@@ -8,7 +8,6 @@ ingressHosts:
   - pihole.morrisons.site
   - homelab.morrisons.site
   - registry.morrisons.site
-  - woodpecker.morrisons.site
   - hdmi-switch.morrisons.site
   - graph-hdmi-switch.morrisons.site
   - graphql.morrisons.site
