@@ -12,3 +12,4 @@ ingressHosts:
   - graph-hdmi-switch.morrisons.site
   - graphql.morrisons.site
   - control.morrisons.site
+  - backstage.morrisons.site
