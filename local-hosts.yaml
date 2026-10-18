@@ -6,7 +6,7 @@ localHosts:
   basementpc.local: 192.168.68.78
   nevespc.local: 192.168.68.100
   Matthews-MacBook-Air.local: 192.168.68.71
-  Nicoles-MacBook-Pro.local: 192.168.68.101
+  nixos.local: 192.168.68.101
   macbook-2008-a.local: 192.168.68.95
   macbook-2008-b.local: 192.168.68.96
   macbook-pro-2010.local: 192.168.68.104
