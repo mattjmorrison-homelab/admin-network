@@ -13,3 +13,5 @@ ingressHosts:
   - graphql.morrisons.site
   - control.morrisons.site
   - backstage.morrisons.site
+  - ad-reporter.morrisons.site
+  - graph-ad-reporter.morrisons.site
