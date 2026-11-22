@@ -3,6 +3,8 @@ piholeAddress: 192.168.68.84
 localHosts:
   pizero.local: 192.168.68.93
   pi1.local: 192.168.68.92
+  pi5-8.local: 192.168.68.56
+  pi5-16.local: 192.168.68.91
   basementpc.local: 192.168.68.78
   nevespc.local: 192.168.68.100
   Matthews-MacBook-Air.local: 192.168.68.71
