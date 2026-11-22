@@ -16,3 +16,4 @@ ingressHosts:
   - ad-reporter.morrisons.site
   - graph-ad-reporter.morrisons.site
   - healthchecks.morrisons.site
+  - graph-claude.morrisons.site
